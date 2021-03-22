@@ -36,5 +36,7 @@ spec:
       containers:
         - name: myapp
           image: sajith/node-web-app
+          imagePullPolicy: Never
           ports:
             - containerPort: 8080
+
