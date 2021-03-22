@@ -1,1 +1,15 @@
 kubectl create deployment hello-node --image=sajith/node-web-app
+
+
+minikube start
+
+eval $(minikube docker-env)
+
+docker build -t sajith/node-web-app .
+
+kubectl create -f kube-deploy.yml
+
+
+minikube ip
+
+
