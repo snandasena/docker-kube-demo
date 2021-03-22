@@ -19,12 +19,15 @@ spec:
 
 
 ---
-apiVersion: extensions/v1beta1
+apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: myappdeployment
 spec:
-  replicas: 5
+  replicas: 3
+  selector:
+    matchLabels:
+      app: myapp
   template:
     metadata:
       labels:
@@ -32,6 +35,6 @@ spec:
     spec:
       containers:
         - name: myapp
-          image: sajith/node-web-app:latest
+          image: sajith/node-web-app
           ports:
             - containerPort: 8080
