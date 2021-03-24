@@ -6,6 +6,8 @@ eval $(minikube docker-env)
 
 docker build -t sajith/node-web-app .
 
+#kubectl api-resources | grep deployment
+
 kubectl create -f kube-deploy.yml
 
 kubectl create -f kube-ingress.yml
