@@ -2,6 +2,7 @@ https://medium.com/bb-tutorials-and-thoughts/how-to-use-own-local-doker-images-w
 https://www.cse.wustl.edu/~jain/cse570-18/ftp/m_21cdk/m_21cdk.html
 https://www.cse.wustl.edu/~jain/cse570-18/ftp/m_21cdk.pdf
 https://www.youtube.com/watch?v=1xo-0gCVhTU
- https://nodejs.org/en/docs/guides/nodejs-docker-webapp/
+https://nodejs.org/en/docs/guides/nodejs-docker-webapp/
 https://www.youtube.com/watch?v=Wf2eSG3owoA
 https://www.slideshare.net/ssuser6bb12d/docker-and-kubernetes-72732610
+https://kubernetes.github.io/ingress-nginx/troubleshooting/

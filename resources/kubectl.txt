@@ -2,6 +2,10 @@
 
 minikube start
 
+minikube status
+
+kubectl get pods -n kube-system
+
 eval $(minikube docker-env)
 
 docker build -t sajith/node-web-app .
