@@ -4,6 +4,8 @@ minikube start
 
 minikube status
 
+minikube addons enable ingress 
+
 kubectl get pods -n kube-system
 
 eval $(minikube docker-env)
@@ -18,4 +20,10 @@ kubectl create -f kube-ingress.yml
 
 minikube ip
 
+kubectl get pods --all-namespaces
 
+kubectl get svc --all-namespaces
+
+get pods -n kube-system
+
+kubectl logs -f -n kube-system <>
